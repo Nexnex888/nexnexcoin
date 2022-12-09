@@ -1,0 +1,6 @@
+usr/local/bin/nexnexcoin-qt usr/bin
+share/pixmaps/nexnexcoin32.xpm usr/share/pixmaps
+share/pixmaps/nexnexcoin16.xpm usr/share/pixmaps
+share/pixmaps/nexnexcoin128.png usr/share/pixmaps
+debian/nexnexcoin-qt.desktop usr/share/applications
+debian/nexnexcoin-qt.protocol usr/share/kde4/services/

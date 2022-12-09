@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/nexnexcoin_bg.qm</file>
+        <file alias="de">locale/nexnexcoin_de.qm</file>
+        <file alias="en">locale/nexnexcoin_en.qm</file>
+        <file alias="es">locale/nexnexcoin_es.qm</file>
+        <file alias="fi">locale/nexnexcoin_fi.qm</file>
+        <file alias="fr">locale/nexnexcoin_fr.qm</file>
+        <file alias="it">locale/nexnexcoin_it.qm</file>
+        <file alias="ja">locale/nexnexcoin_ja.qm</file>
+        <file alias="pl">locale/nexnexcoin_pl.qm</file>
+        <file alias="pt">locale/nexnexcoin_pt.qm</file>
+        <file alias="ru">locale/nexnexcoin_ru.qm</file>
+        <file alias="sk">locale/nexnexcoin_sk.qm</file>
+        <file alias="sv">locale/nexnexcoin_sv.qm</file>
+        <file alias="vi">locale/nexnexcoin_vi.qm</file>
+        <file alias="zh_CN">locale/nexnexcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/nexnexcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

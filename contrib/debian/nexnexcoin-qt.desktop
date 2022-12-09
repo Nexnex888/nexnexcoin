@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Nexnexcoin
+Comment=Nexnexcoin P2P Cryptocurrency
+Comment[fr]=Nexnexcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nexnexcoin, eşten eşe kriptografik sanal para birimi
+Exec=nexnexcoin-qt %u
+Terminal=false
+Type=Application
+Icon=nexnexcoin128
+MimeType=x-scheme-handler/nexnexcoin;
+Categories=Office;Finance;

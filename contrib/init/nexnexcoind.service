@@ -1,0 +1,22 @@
+[Unit]
+Description=Nexnexcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=nexnexcoincore
+Group=nexnexcoincore
+
+Type=forking
+PIDFile=/var/lib/nexnexcoind/nexnexcoind.pid
+ExecStart=/usr/bin/nexnexcoind -daemon -pid=/var/lib/nexnexcoind/nexnexcoind.pid \
+-conf=/etc/nexnexcoincore/nexnexcoin.conf -datadir=/var/lib/nexnexcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Protocol]
+exec=nexnexcoin-qt '%u'
+protocol=nexnexcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
